@@ -9,15 +9,15 @@ Developed with: Symfony, RabbitMQ, Doctrine, MySql.
 `FormatingDataForRabbitMQ()` and `HexToDec()` are the custom functions that used to format the data to the correct form to send them on rabbitmq. 
 
 * For the rabbitmq configuration and connection:
-  Follow   [Named Link](https://www.rabbitmq.com/tutorials/ "Named RabbitMQ") for php. 
+  Follow [RabbitMQ](https://www.rabbitmq.com/tutorials/ "Named RabbitMQ") for php. 
 
 * For doctrine:
-  Follow https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html.
+  Follow [Doctrine](https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html "Named doctrine").
 
 Every function in this project is well documented and comprehensive.
 
 # 1 STEP
-Install symfony 4 on your machine. follow https://symfony.com/doc/current/index.html
+Install symfony 4 on your machine. follow [Symfony](https://symfony.com/doc/current/index.html "Named Symfony")
 
 # 2 STEP
 Get repository on your local ide
