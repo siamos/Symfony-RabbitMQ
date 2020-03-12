@@ -1,5 +1,8 @@
 # net2grid
-Symfony, RabbitMQ, Doctrine, MySql. A simple app that consumes data from Amazon api and saves them to database, filtering them before to RabbitMQ.
+Description:
+An app that consumes data from Amazon api and saves them to database, filtering them before to RabbitMQ. The credentials for amazon, rabbitmq, and mysql was given, you are free to change them. 
+
+Developed with: Symfony, RabbitMQ, Doctrine, MySql. 
 
 # 1 STEP
 Install symfony 4 on your machine. follow https://symfony.com/doc/current/index.html
@@ -18,7 +21,7 @@ The data from amazon api will automaticaly download and send to RabbitMQ for fil
 After that the following message will be appear. "Amazon data recieved and uploaded to RabbitMQ. Send data to Database: SEND"
 
 # 6 STEP
-Press the send to save the data to database, this may also take some minutes, after a few, a message that successfully your data
+Press the SEND to save the data to database, this may also take some minutes, after a few, a message that successfully your data
 have been saved will be appear.
 
 
