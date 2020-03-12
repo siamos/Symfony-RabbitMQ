@@ -10,8 +10,8 @@ Developed with: Symfony, RabbitMQ, Doctrine, MySql.
 
 *For the rabbitmq configuration and connection:
 Follow https://www.rabbitmq.com/tutorials/ for php. 
-*for doctrine:
-https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html.*
+*For doctrine:
+https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html.
 
 Every function in this project is well documented and comprehensive.
 
