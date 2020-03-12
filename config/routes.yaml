@@ -1,0 +1,11 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+#    app_lucky_numbeer test path
+index:
+    path: /
+    controller: App\Controller\CollectDataController::getData
+
+app_test_controller:
+    path: /product/
+    controller: App\Controller\RabbitDataController::listen
