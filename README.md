@@ -22,7 +22,7 @@ Press the send to save the data to database, this may also take some minutes, af
 have been saved will be appear.
 
 
-# DATABASE TABLE CREATION:
+# DATABASE TABLE IN MYSQL:
 
 CREATE TABLE `energy_entities` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
