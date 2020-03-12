@@ -3,7 +3,17 @@ An app that consumes data from Amazon api and saves them to database, filtering 
 
 Developed with: Symfony, RabbitMQ, Doctrine, MySql. 
 
-For the amazon api call i used symfony HttpClient library to fetch the data via get method and url. FormatingDataForRabbitMQ and Hectodec are the custom functions that used to format the data to the correct form to send them on rabbitmq. For the rabbitmq configuration and connection i used the https://www.rabbitmq.com/tutorials/ for php. And for doctrine https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html. The schema of the database in mysql is at the end of readme file. Every function in this project is well documented and comprehensive.
+*For the amazon api call i used symfony `HttpClient` library to fetch the data via get method and url.
+
+*Data Formating:
+`FormatingDataForRabbitMQ()` and `HexToDec()` are the custom functions that used to format the data to the correct form to send them on rabbitmq. 
+
+*For the rabbitmq configuration and connection:
+Follow https://www.rabbitmq.com/tutorials/ for php. 
+*for doctrine:
+https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/tutorials/getting-started.html.*
+
+Every function in this project is well documented and comprehensive.
 
 # 1 STEP
 Install symfony 4 on your machine. follow https://symfony.com/doc/current/index.html
