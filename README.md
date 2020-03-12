@@ -20,3 +20,14 @@ After that the following message will be appear. "Amazon data recieved and uploa
 # 6 STEP
 Press the send to save the data to database, this may also take some minutes, after a few, a message that have successfully your data
 have been saved will be appear.
+
+
+# DATABASE TABLE CREATION:
+
+CREATE TABLE `energy_entities` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `routing_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `energy_value` int(11) DEFAULT NULL,
+  `energy_timestamp` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2420 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
